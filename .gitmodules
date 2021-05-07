@@ -1,3 +1,6 @@
 [submodule "kotlin"]
 	path = kotlin
 	url = https://github.com/Thug-Han/kotlin
+[submodule "designmode"]
+	path = designmode
+	url = https://github.com/Thug-Han/designmode
