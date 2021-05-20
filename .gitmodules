@@ -4,3 +4,6 @@
 [submodule "designmode"]
 	path = designmode
 	url = https://github.com/Thug-Han/designmode
+[submodule "ipc"]
+	path = ipc
+	url = https://github.com/Thug-Han/ipc
