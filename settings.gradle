@@ -1,2 +1,2 @@
 rootProject.name = "Evolution"
-include ':app',':kotlin',':designmode'
+include ':app',':kotlin',':designmode',':ipc'

@@ -44,8 +44,13 @@ dependencies {
     androidTestImplementation dps.ext_junit
     androidTestImplementation dps.espresso_core
 
-    implementation project(':kotlin')
-    implementation project(':designmode')
     implementation dps.arouter_api
     annotationProcessor dps.arouter_compiler
+
+    if (!KotlinDebug){
+        implementation project(':kotlin')
+    }
+    if (!DesignModeDebug){
+        implementation project(':designmode')
+    }
 }
