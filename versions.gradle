@@ -2,6 +2,7 @@ ext {
     // false 作为lib组件 ，true作为application存在
     KotlinDebug = false // kotlin模块
     DesignModeDebug = false // designmode模块
+    IpcDebug = false // ipc模块
 
     androidVersion = [
             applicationId    : "com.thughan.evolution",
