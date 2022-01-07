@@ -7,3 +7,6 @@
 [submodule "ipc"]
 	path = ipc
 	url = https://github.com/Thug-Han/ipc
+[submodule "module_android"]
+	path = module_android
+	url = https://github.com/Thug-Han/module_android

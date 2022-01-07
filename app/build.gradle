@@ -56,4 +56,7 @@ dependencies {
     if (!IpcDebug){
         implementation project(':ipc')
     }
+    if (!ModuleAndroidDebug){
+        implementation project(':module_android')
+    }
 }

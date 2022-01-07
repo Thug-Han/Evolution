@@ -3,6 +3,7 @@ ext {
     KotlinDebug = false // kotlin模块
     DesignModeDebug = false // designmode模块
     IpcDebug = false // ipc模块
+    ModuleAndroidDebug = false // android模块
 
     androidVersion = [
             applicationId    : "com.thughan.evolution",
