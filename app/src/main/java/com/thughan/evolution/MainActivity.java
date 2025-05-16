@@ -29,15 +29,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         int id = v.getId();
-        switch (id) {
-            case R.id.btn_design_mode:
-                ARouter.getInstance().build(DesignConstants.ACTIVITY_PATH).navigation();
-                break;
-            case R.id.btn_leak_canary:
-                ARouter.getInstance().build(ModuleConstants.ACTIVITY_PATH).navigation();
-                break;
-            default:
-                break;
+        if (id == R.id.btn_design_mode) {
+            ARouter.getInstance().build(DesignConstants.ACTIVITY_PATH).navigation();
+        } else if (id == R.id.btn_leak_canary) {
+            ARouter.getInstance().build(ModuleConstants.ACTIVITY_PATH).navigation();
         }
     }
 }

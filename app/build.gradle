@@ -1,8 +1,7 @@
-plugins {
-    id 'com.android.application'
-}
+apply plugin: 'com.android.application'
 
 android {
+    namespace "com.thughan.evolution"
     compileSdkVersion androidVersion.compileSdkVersion
     buildToolsVersion androidVersion.buildToolsVersion
 
@@ -17,8 +16,7 @@ android {
 
         javaCompileOptions {
             annotationProcessorOptions {
-                arguments = [AROUTER_MODULE_NAME: project.getName(), isApp: "true"]
-                includeCompileClasspath = true
+                arguments = [AROUTER_MODULE_NAME: project.getName()]
             }
         }
     }
