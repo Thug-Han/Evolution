@@ -7,10 +7,10 @@ ext {
 
     androidVersion = [
             applicationId    : "com.thughan.evolution",
-            compileSdkVersion: 30,
+            compileSdkVersion: 34,
             buildToolsVersion: "33.0.1",
-            minSdkVersion    : 19,
-            targetSdkvErsion : 30,
+            minSdkVersion    : 21,
+            targetSdkvErsion : 34,
             versionCode      : 1,
             versionName      : "1.0.0",
     ]

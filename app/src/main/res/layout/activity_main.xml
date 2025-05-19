@@ -18,4 +18,10 @@
         android:layout_height="wrap_content"
         android:text="leak canary" />
 
+    <Button
+        android:id="@+id/btn_compose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Compose" />
+
 </LinearLayout>
